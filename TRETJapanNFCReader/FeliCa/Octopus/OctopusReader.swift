@@ -12,7 +12,7 @@ import CoreNFC
 public typealias OctopusCardTag = NFCFeliCaTag
 
 @available(iOS 13.0, *)
-public class OctopusReader: FeliCaReader {
+open class OctopusReader: FeliCaReader {
     
     private var octopusCardItemTypes: [OctopusCardItemType] = []
     
