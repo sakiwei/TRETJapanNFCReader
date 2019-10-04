@@ -97,7 +97,7 @@ open class JapanNFCReader: NSObject, NFCTagReaderSessionDelegate {
         session.invalidate()
     }
     
-    public func localizedString(key: String) -> String {
+    open func localizedString(key: String) -> String {
         return NSLocalizedString(key, bundle: Bundle.current, comment: "")
     }
 }
